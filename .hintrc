@@ -32,6 +32,12 @@
           "height: fit-content"
         ]
       }
+    ],
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
     ]
   }
 }
