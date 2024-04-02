@@ -26,7 +26,7 @@ body{
   position: absolute;
 }
 div{
-  transition-duration: 10s;
+  transition-duration: 6s;
 }
 header {
     padding: 10px;
@@ -110,7 +110,7 @@ li a{
 
 nav ul li a {
 text-indent: 10px;
-font-family: 'Times New Roman', Times, serif;
+font-family: 'Courier New', Courier, monospace;
 }
 
 nav ul li a:hover {
@@ -127,7 +127,7 @@ nav ul li a:hover {
  width: 415px;
  height: 405px;
  border-radius: 50%;
- margin-left: 48%;
+ margin-left: 50%;
  background-color: #cc2366;
 box-shadow:-1px 9px;
  margin-top: 8%;
@@ -144,81 +144,45 @@ box-shadow:-1px 9px;
   -o-border-radius: 190%;
   position: absolute;
 }
+.icons{
+  position: relative;
+  font-weight: 300;
+  color:ffff;
+}
+.container2{
+  position: absolute;
+}
 
 .container{
-  margin-top: 25%;
-  transition-duration: 8s;
+  margin-top: 27%;
+  transition-duration: 3s;
 }
-.card {
-  width: fit-content;
-    display: flex;
-    height: 70px;
-    width: 350px;
-  }
-
-  .card svg {
-    position: absolute;
-    display: flex;
-    width: 30%;
-    height: 20%;
-    font-size: 24px;
-    font-weight: 700;
-    opacity: 1;
-    transition: opacity 0.25s;
-    z-index: 2;
-    padding: 0.25rem;
-    cursor: pointer;
-    margin-bottom: 50%;
-  }
-  
-  .card .social-link1,.card .social-link2,.card .social-link3,.card .social-link4,.card .social-link5 {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 250%;
-    font-size: 10px;
-    text-decoration: none;
-    transition: 0.25s;
-    border-radius: 50px;
+.social-media{
+display: inline-flex;
+margin-top: 8%;
+color: #070808;
+font-size:2em;
+column-gap: 2em;
 }
-  
-  .card svg {
-    transform: scale(1);
-    -webkit-transform: scale(1);
-    -moz-transform: scale(1);
-    -ms-transform: scale(1);
-    -o-transform: scale(1);
+.instagram{
+  display: flex;
+  color: #bc1888;
+  width: 20%;
+  column-gap: 20%;
 }
-.card .social-link1:hover{
-  background-color: #e84697;
-  align-items: center;
-  border-radius: 200%;
-  -webkit-border-radius: 200%;
-  -moz-border-radius: 200%;
-  -ms-border-radius: 200%;
-  -o-border-radius: 200%;
+.instagram:hover{
+  background-color: #030102;
 }
-.card .social-link2:hover{
-    background-color: black;
-    
-    border-radius: 200%;
+.github{
+  display: flex;
 }
-.card .social-link3:hover{
-  background-color: #0a66c2;
-  border-radius: 200%;
-  
+.github:hover{
+  background-color: #030102;
 }
-.card .social-link4:hover{
-  background-color: aqua;
-  border-radius: 200%;
-  
+.linked{
+  display: flex;
+  color: #0a66c2;
 }
-.card .social-link5:hover{
-  background-color: bisque;
-  border-radius: 2000%;
-  -webkit-border-radius: 2000%;
-  -moz-border-radius: 2000%;
-  -ms-border-radius: 2000%;
-  -o-border-radius: 2000%;
+.linked:hover{
+  background-color: #b3ffb3;
 }
