@@ -26,7 +26,7 @@ body{
   position: absolute;
 }
 div{
-  transition-duration: 10s;
+  transition-duration: 1s;
 }
 header {
     padding: 10px;
@@ -129,7 +129,7 @@ nav ul li a:hover {
  border-radius: 50%;
  margin-left: 60%;
  background-color: #cc2366;
-box-shadow:-1px 9px;
+ box-shadow:-1px 9px;
  margin-top: 8%;
  position: absolute;
 }
@@ -385,7 +385,7 @@ pre{
   justify-content: center;
   color: #ffff;
 }
-.icons{
+.foot1{
   display: flex;
   background-color: #011317;
   align-items: center;

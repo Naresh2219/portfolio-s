@@ -1,0 +1,1 @@
+d:\Downloads\img\naresh2.jpgs
