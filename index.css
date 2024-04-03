@@ -364,4 +364,30 @@ pre{
     font-size: medium;
     font-style: italic;
   }
+  button{
+    margin-top: 10px;
+    color: #4373a4;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+  button:hover{
+    background-color: #9d2f66;
+  }
+}
+.foot{
+  margin-top: 10px;
+  display: flex;
+  background-color: #011317;
+  text-align: center;
+  justify-content: center;
+  color: #ffff;
+}
+.icons{
+  display: flex;
+  background-color: #011317;
+  align-items: center;
+  justify-content: center;
 }
