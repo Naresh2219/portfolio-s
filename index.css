@@ -147,6 +147,7 @@ nav ul li a:hover {
   -o-border-radius: 50%;
   position: absolute;
   background: none;
+  object-fit: cover;
 }
 .icons{
   position: relative;
@@ -220,6 +221,7 @@ column-gap: 2em;
   -moz-border-radius: 50%;
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
+  object-fit: cover;
 }
 .glowing2-circle{
   height: 415px;
@@ -262,6 +264,15 @@ pre{
   -o-border-radius: 50px;
   width: 50%;
 }
+.fade-in-section {
+  opacity: 0;
+  transition: opacity 4s ease-in-out;
+  -webkit-transition: opacity 4s ease-in-out;
+  -moz-transition: opacity 4s ease-in-out;
+  -ms-transition: opacity 4s ease-in-out;
+  -o-transition: opacity 4s ease-in-out;
+}
+
 .progress{
   background-color: #4caf50;
   border-radius: 5px;
