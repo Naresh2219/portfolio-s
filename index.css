@@ -1,6 +1,9 @@
 body{
     background-color: #acd6de;
 }
+html{
+  scroll-behavior: smooth;
+}
 .alert-dark{
   display: flex;
   color: #e8e8e8;
@@ -72,6 +75,7 @@ nav {
     -moz-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
+   
 }
 .buttons{
   width: fit-content;
@@ -96,7 +100,7 @@ nav ul li{
   border-radius: 10px;
   margin-right: auto;
   text-transform: lowercase;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
   border-radius: 50%;
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -133,7 +137,6 @@ nav ul li a:hover {
  margin-top: 8%;
  position: absolute;
 }
-
 .naresh{
   width: 415px;
   height: 415px;
@@ -143,11 +146,12 @@ nav ul li a:hover {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   position: absolute;
+  background: none;
 }
 .icons{
   position: relative;
   font-weight: 300;
-  color:ffff;
+  color:goldenrod;
 }
 .container2{
   position: absolute;
