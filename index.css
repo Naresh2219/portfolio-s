@@ -1,3 +1,9 @@
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
 body{
     background-color: #acd6de;
 }
@@ -63,6 +69,7 @@ header {
       font-family: 'Times New Roman', Times, serif;
       font-weight: 300;
     }
+
 nav {
     column-gap: 20px;
     display: flex;
@@ -137,6 +144,9 @@ nav ul li a:hover {
  margin-top: 8%;
  position: absolute;
 }
+.fade-in-image { animation: fadeIn 5s; }
+
+
 .naresh{
   width: 415px;
   height: 415px;
@@ -146,7 +156,6 @@ nav ul li a:hover {
   -ms-border-radius: 50%;
   -o-border-radius: 50%;
   position: absolute;
-  background: none;
   object-fit: cover;
 }
 .icons{
@@ -237,7 +246,7 @@ pre{
   display: flexbox;
   margin-left: 40%;
   margin-top: -27%;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
   font-weight: 800;
   font-size: larger;
 }
@@ -263,14 +272,6 @@ pre{
   -ms-border-radius: 50px;
   -o-border-radius: 50px;
   width: 50%;
-}
-.fade-in-section {
-  opacity: 0;
-  transition: opacity 4s ease-in-out;
-  -webkit-transition: opacity 4s ease-in-out;
-  -moz-transition: opacity 4s ease-in-out;
-  -ms-transition: opacity 4s ease-in-out;
-  -o-transition: opacity 4s ease-in-out;
 }
 
 .progress{
