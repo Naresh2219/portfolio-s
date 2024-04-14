@@ -146,14 +146,6 @@ nav ul li a:hover {
 }
 .fade-in-image { animation: fadeIn 5s;
  }
- .fade-in{
-  opacity: ;
-  transition: opacity 0.5 ease;
-  -webkit-transition: opacity 0.5 ease;
-  -moz-transition: opacity 0.5 ease;
-  -ms-transition: opacity 0.5 ease;
-  -o-transition: opacity 0.5 ease;
-}
 .naresh{
   width: 415px;
   height: 415px;
